@@ -98,6 +98,39 @@ p {
 }
 
 @media screen and (max-width: 700px) {
-    
+    header {
+        display: none;
+    }
+
+    img {
+        display: block;
+        width: 354px;
+        height: 317px;
+        margin: 149px 22px 0 22px;
+    }
+
+    h1 {
+        width: 263px;
+        font-size: 50px;
+        line-height: 61px;
+        margin: 24px 63px 0 63px;
+    }
+
+    h2 {
+        width: 232px;
+        font-size: 30px;
+        line-height: 37px;
+        margin: 10px 79px 10px 79px;
+    }
+
+    p {
+        display: none;
+    }
+
+    .button-explore {
+        display: block;
+        margin: 17px auto;
+    }
+
 }
 
